@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APBD_TASK09", "APBD_TASK09\APBD_TASK09.csproj", "{D9A4D80E-D6D1-4D29-BFBA-321E1EE6DA0E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9A4D80E-D6D1-4D29-BFBA-321E1EE6DA0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9A4D80E-D6D1-4D29-BFBA-321E1EE6DA0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9A4D80E-D6D1-4D29-BFBA-321E1EE6DA0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9A4D80E-D6D1-4D29-BFBA-321E1EE6DA0E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
