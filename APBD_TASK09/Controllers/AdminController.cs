@@ -1,6 +1,13 @@
-﻿namespace APBD_TASK09.Controllers;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 
-public class AdminController
+namespace APBD_TASK09.Controllers;
+
+[Authorize(Roles = "Admin")]
+public class AdminController : Controller
 {
-    
+    public IActionResult Index()
+    {
+        return View();
+    }
 }

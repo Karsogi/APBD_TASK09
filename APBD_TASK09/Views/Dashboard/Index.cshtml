@@ -1,0 +1,51 @@
+﻿@model List<APBD_TASK09.Models.UserNote>
+
+<h2>Dashboard</h2>
+
+<p>
+    Logged in as:
+    @User.Identity?.Name
+</p>
+
+<form asp-action="AddNote" method="post">
+
+    <input name="Title"
+           placeholder="Title" />
+
+    <br />
+
+    <textarea name="Content"
+              placeholder="Content">
+    </textarea>
+
+    <br />
+
+    <button type="submit">
+        Add Note
+    </button>
+
+</form>
+
+<hr />
+
+<h3>Your Notes</h3>
+
+@foreach (var note in Model)
+{
+    <div>
+        <strong>@note.Title</strong>
+
+        <p>@note.Content</p>
+
+        <small>
+            @note.CreatedAt
+        </small>
+    </div>
+
+    <hr />
+}
+
+<a asp-controller="Account"
+   asp-action="Logout">
+    Logout
+</a>
